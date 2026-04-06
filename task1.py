@@ -1,3 +1,15 @@
+"""
+                       Задача 1
+Задание
+Определите функцию filter_strings_containing_a, принимающую
+один параметр:
+Имя        Тип          Пример входа
+input_strs список строк ["apple", "banana", "cherry", "date"]
+
+Функция должна возвращать новый список, содержащий только
+строки, содержащие букву «a».
+"""
+
 def filter_strings_containing_a(input_strs: list[str]) -> list[str]:
     output_strs = []
     for input_str in input_strs:
